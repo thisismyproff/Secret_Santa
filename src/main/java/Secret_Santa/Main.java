@@ -8,13 +8,12 @@ import Secret_Santa.util.CSVWriterUtil;
 import java.util.List;
 import java.util.Map;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 public class Main {
     public static void main(String[] args) {
-        String employeeFile = "resources/employees.csv";
-        String lastYearFile = "resources/last_year_assignments.csv";
-        String outputFile = "resources/current_assignments.csv";
+        String employeeFile = "resources/Employee-List.csv";
+        String lastYearFile = "resources/Secret-Santa-Game-Result-2023.csv";
+        String outputFile = "resources/Current_Assignments.csv";
 
         CSVReaderService readerService = new CSVReaderService();
         SecretSantaService santaService = new SecretSantaService();
